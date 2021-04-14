@@ -1,6 +1,6 @@
 import socket
 
-HOST, PORT = '', 80
+HOST, PORT = '', 2080
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST, PORT))
     s.listen(100)
